@@ -47,7 +47,7 @@ citySearch.addEventListener('submit', (e) => {
 	e.preventDefault();
 	let cityNameSearch = document.querySelector(".city_name");
 	console.log(cityNameSearch.value);
-	city_name = cityNameSearch.value.toLowerCase(); 
+	city_name = cityNameSearch.value.toLowerCase();
 	getWeatherData();
 	cityNameSearch.value = '';
 });
